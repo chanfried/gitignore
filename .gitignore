@@ -1,3 +1,6 @@
+# vim swp
+*.swp
+
 # C/C++ project for windows
 *.exp
 *.user
@@ -10,7 +13,6 @@
 **/ipch/
 **/.vs/
 *.suo
-.gitignore
 **/Debug/
 **/Release/
 **/x64/
