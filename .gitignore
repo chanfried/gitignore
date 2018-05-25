@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# C/C++ project for windows
+*.exp
+*.user
 *.obj
-
-# Precompiled Headers
-*.gch
+*.tlog
 *.pch
+*.ncb
+*.sdf
+*.pdb
+**/ipch/
+**/.vs/
+*.suo
+.gitignore
+**/Debug/
+**/Release/
+**/x64/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Python
+**/__pycache__/
